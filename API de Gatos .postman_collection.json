@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "f160f903-b31b-4989-98df-e935f3dfbf79",
+		"name": "API de Gatos ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://thecatapi.com/meta-tag-image.png",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://thecatapi.com/meta-tag-image.png",
+					"protocol": "https",
+					"host": [
+						"thecatapi",
+						"com"
+					],
+					"path": [
+						"meta-tag-image.png"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.thecatapi.com/v1/images/search/category_ids",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thecatapi.com/images/search/category_ids",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thecatapi",
+						"com"
+					],
+					"path": [
+						"images",
+						"search",
+						"category_ids"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://thecatapi.com/meta-tag-image.png",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.thecatapi.com/v1/breeds/:breed_id",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thecatapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"breeds",
+						":breed_id"
+					],
+					"variable": [
+						{
+							"key": "breed_id",
+							"value": ""
+						}
+					]
+				},
+				"description": "busca de raça por ID"
+			},
+			"response": []
+		}
+	]
+}
